@@ -1,0 +1,22 @@
+{
+  "name": "p5js",
+  "version": "1.0.0",
+  "description": "A page for hosting all of the p5.js experiments that don't have anywahere better to be",
+  "scripts": {
+    "build-dist": "npx tsc",
+    "watch-dist": "npx tsc --watch",
+    "start": "http-server . --cors"
+  },
+  "author": "siri-chan",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.2",
+    "@types/p5": "^1.4.1",
+    "bootstrap": "^5.1.3",
+    "http-server": "^14.1.0",
+    "jquery": "^3.6.0",
+    "p5": "^1.4.1",
+    "source-map-support": "^0.5.21",
+    "typescript": "^4.6.2"
+  }
+}

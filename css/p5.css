@@ -1,0 +1,12 @@
+.content {
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+.container {
+  /* This centers our sketch horizontally. */
+  justify-content: center;
+
+  /* This centers our sketch vertically. */
+  align-items: center;
+}
